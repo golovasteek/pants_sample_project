@@ -4,6 +4,9 @@ backend_packages = [
     "pants.backend.python",
 ]
 
+[python]
+interpreter_constraints = ["CPython==3.8.*"]
+
 [source]
 root_patterns = [
     "/projectdir"
